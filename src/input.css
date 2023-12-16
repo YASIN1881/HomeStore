@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "Poppins Medium"; /* 500 */
+        src: local("Poppins Medium"),
+            url("../project/assets/fonts/Poppins/Poppins-Medium.ttf") format("ttf");
+            font-display: swap;
+    }
+    @font-face {
+        font-family: "Inter"; /* 400 */
+        src: local("Inter Regular"),
+            url("../project/assets/fonts/Inter/project/assets/fonts/Inter/Inter-Regular.ttf") format("ttf");
+            font-display: swap;
+    }
+    @font-face {
+        font-family: "Inter SemiBold"; /* 600 */
+        src: local("Inter SemiBold"),
+        url("../project/assets/fonts/Inter/project/assets/fonts/Inter/Inter-SemiBold.ttf") format("ttf");
+        font-display: swap;
+    }
+    @font-face {
+        font-family: "Inter "; /* 700 */
+        src: local("Inter Bold"),
+        url("../project/assets/fonts/Inter/project/assets/fonts/Inter/Inter-Bold.ttf") format("ttf");
+        font-display: swap;
+    }
+    @font-face {
+        font-family: "SpaceGrotesk Medium";/* 500 */
+        src: local("SpaceGrotesk Medium");
+        src: url("../project/assets/fonts/Inter/project/assets/fonts/Space_Grotesk/SpaceGrotesk-Medium.ttf") format("ttf");
+        font-display: swap;
+    }
+}
